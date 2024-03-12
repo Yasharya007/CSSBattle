@@ -16,6 +16,7 @@ body{
     flex-direction: column;
     padding-top: 1vh;
     gap: 5vh;
+    border-radius: 25px;
 }
 #navBar{
     /* background-color: aqua; */
