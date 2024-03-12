@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(19, 19, 31);
+    color:white;
+}
+#formPage{
+    background-color: rgb(25, 25, 69);
+    width:80vw;
+    height: 80vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vh;
+    gap: 5vh;
+}
+#navBar{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 2vw;
+    font-weight: 700;
+    color: white;
+
+}
+.pink{
+    color: rgb(206, 25, 226);
+}
+#mainBody{
+/* background-color: rgb(59, 82, 74); */
+display: flex;
+}
+#leftBody{
+    /* background-color: green; */
+    width: 40%;
+    margin-left: 6vw;
+    margin-right: 24vw;
+    p{
+        margin-bottom: 2vh;
+    }
+}
+#rightBody{
+    /* background-color: blue; */
+    p{
+        margin-top: 3vh;
+        line-height: 140%;
+        margin-bottom: 5vh;
+    }
+    /* text-align: right; */
+}
+.heading{
+    font-size: 1.6vw;
+    margin-bottom: 0.5vh;
+    color: rgb(206, 25, 226);
+    font-weight: 900;
+}
+.input{
+    height: 3vh;
+    border-radius: 6px;
+    padding: 5px;
+    margin-bottom: 1.5vh;
+    background-color: rgb(58, 58, 147);
+    border: 1px solid rgb(58,58,147);
+}
+textarea{
+    width:22.8vw;
+    height:30vh;
+}
+.button{
+    width: 5vw;
+    height: 4vh;
+    border-radius: 4px;
+    border: 1px solid rgb(206, 25, 226);
+    color:white;
+    background-color: rgb(206,25,226);
+    font-weight: 600;
+}
+.imgs{
+    display: flex;
+}
+img{
+    width: 30px;
+    margin-right: 20px;
+}
+
